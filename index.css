@@ -1,0 +1,135 @@
+
+/* Color Palette
+#92AFD7 - dark sky blue
+#3D5A80 - purple navy
+#e6ac00 - light cyan
+#E4E3D3 - platinum
+*/
+
+/* Global styles 
+------------------------------------*/
+
+html{
+    box-sizing:border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* content styles within work-experience */
+  .content-wrap{
+    max-width:950px;
+    margin: 0 auto;
+    padding: 50px;
+    overflow:hidden;
+  }
+  
+  body p h1 h2 h3 {
+    font-family: Oxygen, Catamaran;
+  }
+  
+  body {
+      background: #92AFD7;
+      font-family: Oxygen, Catamaran;
+    margin:0;
+  }
+  
+  
+  header {
+    background: #E4E3D3;
+    background-color:#e6ac00;
+  }
+  
+  footer {
+    background: #E4E3D3;
+    text-align:center;
+    padding:100px;
+    
+    
+  }
+  
+  h1{
+    font-size:50px;
+    margin:0;
+  }
+  
+  h2{
+    font-size:35px;
+    margin-top:0;
+    margin:0;
+  }
+  
+  h3{
+    font-size:25px;
+  }
+  
+  .work-experience{
+    background:#E4E3D3;
+    
+  }
+  
+  .education{
+    background:#E4E3D3;
+  }
+  
+  .contact-info > a{
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  /* Styling for the profile pic */
+  .profile-img{
+    width: 200px;
+    height: 300px;
+    border-radius: 500px;
+    float: left;
+    margin-right: 30px;
+
+  }
+  
+  /* content for job desc and dates */
+  .column-narrow{
+    width:30%;
+    float:left;
+    min-height: 175px;
+  }
+  
+  /* job Summary section */
+  .column-wide{
+    width:70%;
+    float:left;
+    min-height: 225px;
+  }
+  
+  /* nav bar */
+  .nav{
+    position:fixed;
+    text-align:center;
+    font-size:0;
+    background-color:white;
+    width:100%;
+  }
+  
+  .nav a{
+    padding:10px;
+    display:inline-block;
+    width:20%;
+    font-size:15px;
+  }
+  
+  .nav > a:hover{
+    background-color:#80d4ff;
+  }
+  
+  /* image in footer */
+  .image-bg{
+     width: 60%;
+    font-family: Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    background: 
+    url(https://cdn.glitch.com/9bb56875-54de-4d20-a940-701eabd49e2e%2Fpngtree-green-blue-sky-white-clouds-wide-natural-background-image_259660.jpg?v=1583861176524) no-repeat;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+ 
